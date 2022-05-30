@@ -1,3 +1,4 @@
-flask/bin/
-flask/pyvenv.cfg
+server/flask/bin/
+server/flask/lib/
+server/flask/pyvenv.cfg
 
