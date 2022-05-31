@@ -23,10 +23,16 @@ def insert_test_data():
         pipe.execute()
         
 # insert_test_data()
-print(r.dbsize())
+# print(r.dbsize())
+# print(r.bgsave())
+print([t.decode('utf8') for t in r.keys()])
 
 # поля для анализа: 
 #     name
 #     salary
 #     schedule
 #     snippet
+
+
+
+#TODO: 2Fish
