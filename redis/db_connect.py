@@ -25,7 +25,7 @@ def insert_test_data():
 # insert_test_data()
 # print(r.dbsize())
 # print(r.bgsave())
-print([t.decode('utf8') for t in r.keys()])
+pprint([t.decode('utf8') for t in r.keys()])
 
 # поля для анализа: 
 #     name
