@@ -1,0 +1,140 @@
+{
+    "id": "55288052",
+    "premium": false,
+    "billing_type": {
+        "id": "standard",
+        "name": "Стандарт"
+    },
+    "relations": [],
+    "name": "Специалист по тендерным продажам (без поиска тендерных торгов)",
+    "insider_interview": null,
+    "response_letter_required": false,
+    "area": {
+        "id": "70",
+        "name": "Оренбург",
+        "url": "https://api.hh.ru/areas/70?host=hh.ru"
+    },
+    "salary": {
+        "from": 25000,
+        "to": null,
+        "currency": "RUR",
+        "gross": false
+    },
+    "type": {
+        "id": "open",
+        "name": "Открытая"
+    },
+    "address": {
+        "city": "Оренбург",
+        "street": "улица Монтажников",
+        "building": "26/2",
+        "description": null,
+        "lat": 51.802636,
+        "lng": 55.153612,
+        "raw": "Оренбург, улица Монтажников, 26/2",
+        "metro": null,
+        "metro_stations": []
+    },
+    "allow_messages": true,
+    "site": {
+        "id": "hh",
+        "name": "hh.ru"
+    },
+    "experience": {
+        "id": "noExperience",
+        "name": "Нет опыта"
+    },
+    "schedule": {
+        "id": "fullDay",
+        "name": "Полный день"
+    },
+    "employment": {
+        "id": "full",
+        "name": "Полная занятость"
+    },
+    "department": null,
+    "contacts": null,
+    "description": "<strong>Обязанности:</strong> <ul> <li>анализ конкурсной документации и принятие решения об участии;</li> <li>оформление договоров, первичных документов, коммерческих предложений;</li> <li>уточнение информации у поставщиков;</li> <li>прозвон клиентской базы с целью выявления потребностей;</li> <li>работа с клиентами по дебиторской задолженности, возврату документов;</li> <li>работа по входящему звонку;</li> <li>изучение программных продуктов.</li> </ul> <strong>Требования:</strong> <ul> <li>образование высшее/среднее профессиональное (<strong>образование или знания в сфере IT</strong>);</li> <li>желателен опыт работы с клиентами - юридическими лицами;</li> <li>желателен опыт работы специалистом по закупкам, специалистом по торгам;</li> <li>коммуникабельность, грамотная устная и письменная речь;</li> <li>уверенный пользователь ПК и офисных приложений.</li> </ul> <strong>Условия:</strong> <ul> <li><strong>бесплатное </strong>обучение с опытным наставником;</li> <li><strong>официальное </strong>оформление со всеми вытекающими последствиями;</li> <li><strong>достойная</strong> белая зарплата;</li> <li>огромное<strong> поле для самореализации</strong> в Компании со стажем на рынке IT более 22 лет;</li> <li>карьерный рост и <strong>профессиональное развитие</strong>;</li> <li><strong>поддержка </strong>и улыбка <strong>коллег </strong>в течение всего рабочего дня;</li> <li><strong>комфортное </strong>рабочее место и <strong>удобный </strong>график (5/2 с 9 до 18);</li> <li><strong>офисная</strong> работа (без разъездов);</li> <li><strong>веселые и вкусные</strong> корпоративные мероприятия, <strong>подарки</strong> на День рождения и многое другое!</li> </ul>",
+    "branded_description": null,
+    "vacancy_constructor_template": null,
+    "key_skills": [
+        {
+            "name": "Грамотная речь"
+        },
+        {
+            "name": "Участие в Тендерах"
+        },
+        {
+            "name": "Организаторские навыки"
+        },
+        {
+            "name": "Государственные закупки"
+        }
+    ],
+    "accept_handicapped": false,
+    "accept_kids": false,
+    "archived": false,
+    "response_url": null,
+    "specializations": [
+        {
+            "id": "17.572",
+            "name": "Тендеры",
+            "profarea_id": "17",
+            "profarea_name": "Продажи"
+        },
+        {
+            "id": "17.149",
+            "name": "Менеджер по работе с клиентами",
+            "profarea_id": "17",
+            "profarea_name": "Продажи"
+        },
+        {
+            "id": "26.437",
+            "name": "Управление закупками",
+            "profarea_id": "26",
+            "profarea_name": "Закупки"
+        },
+        {
+            "id": "18.73",
+            "name": "Закупки и снабжение",
+            "profarea_id": "18",
+            "profarea_name": "Производство, сельское хозяйство"
+        }
+    ],
+    "professional_roles": [
+        {
+            "id": "119",
+            "name": "Специалист по тендерам"
+        }
+    ],
+    "code": null,
+    "hidden": false,
+    "quick_responses_allowed": false,
+    "driver_license_types": [],
+    "accept_incomplete_resumes": false,
+    "employer": {
+        "id": "558411",
+        "name": "МастерСофт",
+        "url": "https://api.hh.ru/employers/558411?host=hh.ru",
+        "alternate_url": "https://hh.ru/employer/558411",
+        "logo_urls": {
+            "90": "https://hhcdn.ru/employer-logo/364142.png",
+            "original": "https://hhcdn.ru/employer-logo-original/175871.gif",
+            "240": "https://hhcdn.ru/employer-logo/436999.png"
+        },
+        "vacancies_url": "https://api.hh.ru/vacancies?employer_id=558411&host=hh.ru",
+        "trusted": true
+    },
+    "published_at": "2022-05-11T09:51:37+0300",
+    "created_at": "2022-05-11T09:51:37+0300",
+    "negotiations_url": null,
+    "suitable_resumes_url": null,
+    "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=55288052",
+    "has_test": false,
+    "test": null,
+    "alternate_url": "https://hh.ru/vacancy/55288052",
+    "working_days": [],
+    "working_time_intervals": [],
+    "working_time_modes": [],
+    "accept_temporary": false
+}

@@ -46,9 +46,18 @@ def collect_data() -> list:
 
 # insert_test_data()
 # print(r.dbsize())
+<<<<<<< HEAD:server/flask/db/main.py
+=======
+# print(r.bgsave())
+pprint([t.decode('utf8') for t in r.keys()])
+>>>>>>> master:redis/db_connect.py
 
 # поля для анализа: 
 #     name
 #     salary
 #     schedule
 #     snippet
+
+
+
+#TODO: 2Fish
