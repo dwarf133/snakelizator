@@ -1,6 +1,7 @@
 import json
 from pprint import pprint
 from symtable import SymbolTableFactory
+from types import NoneType
 from unicodedata import name
 import yaml
 import redis
@@ -40,6 +41,19 @@ def collect_data() -> list:
         temp_str = r.mget(t)[0].decode('utf8')
         data.append(json.loads(temp_str))
     return data
+
+def count_mid_salary() -> float:
+    data = []
+    keys = r.keys()
+    mid = 0
+    for t in keys:
+        temp_str = r.mget(t)[0].decode('utf8')
+        data.append(json.loads(temp_str))
+        if json.loads(temp_str)['salary'] != None:
+            if json.loads(temp_str)['salary']['from']!= None:
+                mid += json.loads(temp_str)['salary']['from']
+    mid /= len(keys)
+    return mid
 
 
 

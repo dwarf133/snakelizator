@@ -26,20 +26,24 @@ def parse_data(minutes: float) -> List[object]:
         page = 0
         date_from = (datetime.datetime.now() - datetime.timedelta(minutes=minutes)).strftime('%Y-%m-%dT%H:%M:%S')
         date_to = datetime.datetime.now().strftime('%Y-%m-%dT%H:%M:%S')
-        path = f"/vacancies?per_page={per_page}&page={page}&area={area}&date_from={date_from}&date_to={date_to}"
-        print("Request to api.hh.ru" + path)
+        count = 0
+        returned_json = []
+        for i in range(0, 10):
+            page = i
+            path = f"/vacancies?per_page={per_page}&page={page}&area={area}&date_from={date_from}&date_to={date_to}"
+            print("Request to api.hh.ru" + path)
 
-        with webdriver.Firefox() as driver:
+            with webdriver.Firefox() as driver:
             # Open URL
-            driver.get("https://api.hh.ru"+path)
-            resp = driver.find_element(By.ID, "json")
-            resp = resp.text
-        
-        count = insert_data(json.loads(resp))
+                driver.get("https://api.hh.ru"+path)
+                resp = driver.find_element(By.ID, "json")
+                resp = resp.text
+                count += insert_data(json.loads(resp))
+                returned_json.extend(json.loads(resp))
         if count == 0: count = -1
 
     except: return -1, []
-    return count, json.loads(resp)
+    return count, returned_json
 
 
 
