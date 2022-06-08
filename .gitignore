@@ -1,5 +1,2 @@
-server/flask/bin/
-server/flask/lib/
-server/flask/pyvenv.cfg
 __pycache__/
 
